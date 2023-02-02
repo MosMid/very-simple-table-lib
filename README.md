@@ -2,10 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## How to install
+### How to install
 
 In your project directory type the following commande
+~~~
  npm install very-simple-table-lib
+~~~
 
 ### Features
 <dl>
@@ -17,9 +19,9 @@ In your project directory type the following commande
 </dl>
 
 ### How to use
-
+~~~
 import Table from 'very-simple-table-lib/dist/components/Table'
-
+~~~
 then you need to pass data in JSON format and an object containing what data to display and the corresponding thead in this fashion
 ~~~
 const yourJSON = {people:[
